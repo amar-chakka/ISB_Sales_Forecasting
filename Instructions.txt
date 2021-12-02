@@ -1,0 +1,29 @@
+Instructions to test the submissions:
+
+Requirements: Jupyter Notebook in Google Colab Pro with Python 3.7. Rest of the libraries are defined in the file "requirements.txt" under the submitted folder.
+
+Please make sure you have enough space in RAM available for this exercise. We had used Google Colab Pro for this.
+
+Part I:
+
+Data Exploration - Kindly check the notebook, "Data Exploration.ipynb"
+
+
+Part II:
+
+a. Predict weekly store sales for each product in a given store (80% weightage)
+
+Kindly refer to the notebook, "Testing Utility.ipynb" and follow the below set of instructions:
+
+1. Define the path to the three CSVs in the following variables:
+    a. filepath_sales, filepath_prod_hierarchy and filepath_store_cities.
+    Make sure the column names are same which were given initially.
+2. Define the path to the pickle files shared in the submission folder in the following variables:
+    a. filepath_outliers (model_outliers_isolation_forest.pkl), filepath_scaler (model_scaler.pkl), filepath_pca (model_pca_post_knee_plot.pkl), filepath_predictor (model_pca_post_knee_plot.pkl).
+    All the pickle files are under "Pickles" folder.
+3. Run the code snippets in the sequence.
+4. Mean Squared Error would be displayed at the end of this notebook.
+
+PS: The utility can extract features from date type fields, handle null values, encode categorical data, can handle outliers and can predict even on a subset of data.
+
+PPS: In case of any errors, restart and clear the output and run the code again.
